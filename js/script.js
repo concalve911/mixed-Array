@@ -1,3 +1,4 @@
+"use strict";
 function averageOfNumbers(arr) {
   var numbers = arr.filter(function (element) {
     return typeof element === "number" && !isNaN(element);
